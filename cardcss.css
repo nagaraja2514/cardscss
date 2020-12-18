@@ -1,0 +1,71 @@
+*{
+    padding: 10px;
+    margin: 15px;
+    
+}
+#total{
+    display: flex; 
+}
+.cardone{
+    background-color: rgb(228, 200, 115);
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin-right: auto; 
+    border-radius: 10px;  
+    box-shadow: 10px  10px 10px rgb(78, 56, 60);
+    
+    
+}
+.cardone:hover{
+    transform: translateX();
+   background-color: rgb(212, 24, 197);
+   padding: 20px;
+   color: rgb(36, 229, 255);
+   box-shadow: 2px 2px 2px brown ;
+   transform: translateY(-50px);
+   box-shadow: 10px  10px 10px rgb(31, 17, 20);
+}
+
+.cardtwo{
+    background-color: rgb(228, 200, 115);
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;   
+}
+.cardtwo:hover{
+    background-color: rgb(52, 134, 226);
+    padding: 20px;
+    color: orange;
+    box-shadow: rgb(52, 134, 226)s ;
+ }
+.cardthree{
+    background-color: rgb(228, 200, 115);
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.cardthree:hover{
+    background-color: rgb(24, 212, 24);
+    padding: 20px;
+    color: mediumblue;
+   
+ }
+footer{
+    text-align: center;
+
+}
+#sp1{
+    color: rgb(235, 13, 198);
+}
+.l1{
+   display: inline-block;
+   padding: 10px;
+   background-color: rgb(173, 8, 173);
+   border-radius: 10px;
+}
